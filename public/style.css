@@ -1,0 +1,30 @@
+body{
+	background: rgb(255,237,248);
+	background: radial-gradient(circle, rgba(255,237,248,1) 43%, rgba(255,224,237,1) 78%, rgba(230,161,255,1) 100%);
+}
+@font-face{
+	font-family: joseItalics;
+	src: url('JosefinSans-MediumItalic.ttf');
+}
+@font-face{
+	font-family: joseLight;
+	src: url('JosefinSans-Light.ttf');
+}
+#clip{
+	margin-top:20px;
+}
+input {
+	width:100%;
+	display:inline-block;
+	margin-bottom:5px;
+}
+.center-div{
+	text-align: center;
+	line-height: 22px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'joseItalics', Fallback, sans-serif;
+	
+}
